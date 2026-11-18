@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="da">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Disc Spinner</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Adamina&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="style.css" />
+        <script type="module" src="script.js"></script>
+    </head>
+    <body>
+        <div class="lines">
+            <span class="line"></span>
+            <span class="line"></span>
+        </div>
+        <section class="container">
+            <div class="container-header">
+                <h1>Disc Spinner</h1>
+                <h2>Lavet til boys</h2>
+            </div>
+            <div class="container-body">
+                <button>Let It Rip!</button>
+                <div id="list" aria-hidden="true" class="blur">
+                    <ul class="track"></ul>
+                </div>
+
+                <template id="template">
+                    <li>
+                        <p class="list-item-name" data-item="" id=""></p>
+                    </li>
+                </template>
+            </div>
+        </section>
+        <dialog id="result">
+            <h2 id="result-name"></h2>
+            <p id="result-description"></p>
+            <form method="dialog">
+                <button value="spin">Spin Igen</button>
+            </form>
+        </dialog>
+    </body>
+</html>

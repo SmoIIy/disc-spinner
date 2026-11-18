@@ -1,0 +1,39 @@
+[
+    { "name": "anhyzer", "description": "" },
+    { "name": "hyzer", "description": "" },
+    { "name": "forhånd", "description": "" },
+    { "name": "baghånd", "description": "" },
+    { "name": "putter", "description": "" },
+    { "name": "midrange", "description": "" },
+    { "name": "driver", "description": "" },
+    { "name": "ruller", "description": "" },
+    { "name": "blind shot", "description": "" },
+    { "name": "opponents choice", "description": "" },
+    { "name": "2 shot worst shot", "description": "" },
+    {
+        "name": "trafiklys",
+        "description": "discen skal være rød, gul eller grøn"
+    },
+    { "name": "kast med bukserne om anklerne", "description": "" },
+    { "name": "hård run up", "description": "" },
+    { "name": "rød tee", "description": "" },
+    { "name": "hvid tee", "description": "" },
+    { "name": "dårlige hånd", "description": "" },
+    { "name": "fairway eller ekstra stroke", "description": "" },
+    { "name": "spytteren", "description": "" },
+    {
+        "name": "drive med en disc du ik må bruge resten af runden",
+        "description": ""
+    },
+    { "name": "one disc hullet", "description": "" },
+    {
+        "name": "caddie",
+        "description": "modstander vælger disc, retning, skud og vinkel på drive"
+    },
+    { "name": "Kast under benet ude på banen", "description": "" },
+    {
+        "name": "Reverse kast",
+        "description": "ben skal være 180 grader modsat på teepad"
+    },
+    { "name": "Jumpthrow", "description": "" }
+]
