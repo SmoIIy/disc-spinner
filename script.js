@@ -13,6 +13,7 @@ const spinButton = document.querySelector(".container-body > button");
 const dialog = document.querySelector("#result");
 const resultName = document.querySelector("#result-name");
 const resultDescription = document.querySelector("#result-description");
+const lines = document.querySelector(".lines");
 
 let position = 0; // how far the track has scrolled, in px
 let busy = false; // true from the start of a spin until the popup closes
@@ -50,6 +51,7 @@ const spin = () => {
     busy = true;
     spinButton.disabled = true;
     listEl.classList.remove("blur");
+    lines.classList.remove("invis");
     const index = Math.floor(Math.random() * list.length);
     const item = track.children[index];
     const loop = loopHeight();

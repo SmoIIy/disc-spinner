@@ -199,3 +199,6 @@ button {
         margin-bottom: 1.55rem;
     }
 }
+.invis {
+    display: none;
+}
